@@ -58,3 +58,6 @@
     transform: translateY(4px);
 }
 
+.carousel-item-hidden {
+    display: none;
+}
