@@ -25,6 +25,7 @@
     justify-content: space-between;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel .carousel-actions button {
@@ -45,3 +46,15 @@
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 20px;
 }
+
+.carousel .carousel-actions button#carousel-button-prev:hover,
+.carousel .carousel-actions button#carousel-button-next:hover{
+    background-color: navajowhite;
+}
+
+.carousel .carousel-actions button#carousel-button-prev:active,
+.carousel .carousel-actions button#carousel-button-next:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
