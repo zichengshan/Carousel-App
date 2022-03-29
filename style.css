@@ -1,8 +1,17 @@
+body {
+    margin-top: 100px;
+    text-align: center;
+    background-color: papayawhip;
+}
 
 .carousel {
     max-width: 600px;
     position: relative;
+    margin:0 auto;
+}
 
+h2 {
+    color: darkblue;
 }
 
 .carousel .carousel-item {
