@@ -9,8 +9,12 @@ prevEl.addEventListener("click", moveToPrevSlide)
 nextEl.addEventListener("click", moveToNextSlide)
 
 function moveToPrevSlide(){
-
-    alert("1")
+    slidePosition--;
+    if(slidePosition < 0) {
+        slidePosition = totalSlides-1
+    }
+    hideAllSlides()
+    slides[slidePosition].classList.add("carousel-item-visible")
 }
 
 function moveToNextSlide() {
